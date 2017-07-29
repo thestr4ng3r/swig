@@ -4,21 +4,21 @@ import example.*
 
 fun main(args: Array<String>)
 {
-	// Call our gcd() function
+  // Call our gcd() function
 
-	val x = 42
-	val y = 105
-	val g = gcd(x, y)
-	println("The gcd of $x and $y is $g")
+  val x = 42
+  val y = 105
+  val g = gcd(x, y)
+  println("The gcd of $x and $y is $g")
 
-    // Manipulate the Foo global variable
+  // Manipulate the Foo global variable
 
-    // Output its current value
-    println("Foo = $Foo")
+  // Output its current value
+  println("Foo = $Foo")
 
-    // Change its value
-    Foo = 3.1415926
+  // Change its value
+  Foo = 3.1415926
 
-    // See if the change took effect
-    println("Foo = $Foo")
+  // See if the change took effect
+  println("Foo = $Foo")
 }
